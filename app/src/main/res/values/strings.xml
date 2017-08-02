@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ManyLayouts</string>
+    <string name="about_text">
+        У лукоморья дуб зеленый;\n
+        Златая цепь на дубе том:\n
+        И днём и ночью <b>кот ученый</b>\n
+        Всё ходит по цепи кругом;\n
+    </string>
+    <string name="about_title">О программе</string>
+    <string name="birthday_name">Дата создания</string>
+    <string name="title_activity_birthday">Дата создания</string>
+</resources>
