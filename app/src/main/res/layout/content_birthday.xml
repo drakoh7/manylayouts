@@ -8,4 +8,11 @@
     tools:context="ru.alexandr.pc.manylayouts.BirthdayActivity"
     tools:showIn="@layout/activity_birthday">
 
+    <TextView
+        android:id="@+id/textThat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_editor_absoluteY="247dp"
+        app:layout_editor_absoluteX="192dp" />
+
 </android.support.constraint.ConstraintLayout>

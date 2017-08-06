@@ -20,7 +20,7 @@
         android:layout_width="111dp"
         android:layout_height="48dp"
         android:layout_marginRight="136dp"
-        android:layout_marginTop="175dp"
+        android:layout_marginTop="365dp"
         android:text="О программе"
         android:onClick="onClick"
         android:textAllCaps="false"
@@ -40,5 +40,54 @@
         android:textAllCaps="false"
         android:layout_marginStart="137dp"
         android:id="@+id/buttonBirthday"/>
+
+    <EditText
+        android:id="@+id/editTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:inputType="text"
+        android:minWidth="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/textTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/To"
+        app:layout_constraintLeft_toLeftOf="@+id/editTo"
+        app:layout_constraintBottom_toTopOf="@+id/editTo"/>
+
+    <EditText
+        android:id="@+id/editDescription"
+        android:layout_width="wrap_content"
+        android:minWidth="100dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@+id/editTo"
+        app:layout_constraintTop_toBottomOf="@+id/textDescription"
+        />
+
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Description"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="@+id/editTo"
+        app:layout_constraintTop_toBottomOf="@+id/editTo"/>
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editDescription"
+        app:layout_constraintLeft_toLeftOf="@+id/editDescription"
+        android:text="Отправить"/>
 
 </android.support.constraint.ConstraintLayout>

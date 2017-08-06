@@ -9,4 +9,6 @@
     <string name="about_title">О программе</string>
     <string name="birthday_name">Дата создания</string>
     <string name="title_activity_birthday">Дата создания</string>
+    <string name="To">Кому</string>
+    <string name="Description">Описание</string>
 </resources>
